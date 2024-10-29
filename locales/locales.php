@@ -1612,8 +1612,6 @@ class GP_Locales {
 		$ky->slug = 'ky';
 		$ky->google_code = 'ky';
 		$ky->alphabet = 'cyrillic';
-		$ky->nplurals = 1;
-		$ky->plural_expression = ‘0’;
 
 		$la = new GP_Locale();
 		$la->english_name = 'Latin';
