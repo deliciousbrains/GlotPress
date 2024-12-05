@@ -391,7 +391,7 @@ class GP_Route {
 	 */
 	public function check_uri_trailing_slash() {
 		// Only check for GET requests.
-		if ( $_SERVER['REQUEST_METHOD'] !== 'GET' ) {
+		if ( 'GET' !== $_SERVER['REQUEST_METHOD'] ) {
 			return;
 		}
 
